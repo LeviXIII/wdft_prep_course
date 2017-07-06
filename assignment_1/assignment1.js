@@ -26,6 +26,7 @@ The outputted value should be 9.
 */
 
 console.log(numbers[3] + numbers[6]);
+console.log('\n');
 
 
 
