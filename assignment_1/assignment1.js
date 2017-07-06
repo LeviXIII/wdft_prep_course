@@ -36,11 +36,9 @@ Use the console.log() function and the array .pop() to add all the values in the
 */
 
 var sum = 0;
-/* remove this line to uncomment the code block
 while(numbers.length != 0){
-    //write pop function here
+    sum = sum + numbers.pop();
 }
-remove this line to uncomment the code block */
 console.log(sum);
 
 
