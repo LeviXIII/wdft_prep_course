@@ -26,7 +26,7 @@ var i = 0;              //Counter
 
 while(i < 7)
 {
-    console.log(pound);
+    console.log(pound); //Creates a new line with the new concat string.
     pound = pound + "#"
     i++;
 }
