@@ -15,7 +15,6 @@ Using the loop provided for you below, use an array's push method to insert the 
 
 for(var i=0;i<11;i++){
     numbers.push(i);
-    //console.log(numbers[i]);
 }
 
 
@@ -26,6 +25,7 @@ The outputted value should be 9.
 */
 
 console.log(numbers[3] + numbers[6]);
+console.log();    //Linebreak
 
 
 
@@ -39,8 +39,7 @@ while(numbers.length != 0)
     sum = sum + numbers.pop();
 
 console.log(sum);
-
-
+console.log();
 /*
 Exercise #5
 Create an empty object and assign it the variable car below.
